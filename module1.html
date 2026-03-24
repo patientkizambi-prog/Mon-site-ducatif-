@@ -4,19 +4,43 @@
   <title>Chapitre 1 : Les bases de l'électricité </title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <Style>
-table {
-            border-collapse: collapse;
-            width: 80%;
-        }
-        th, td {
-            border: 1px solid black;
-            padding: 5px;
-            text-align: center;
-            vertical-align: middle;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
+body {
+        font-family: Arial;
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 90%;
+        margin: auto;
+    }
+
+    th, td {
+        border: 1px solid #999;
+        padding: 6px;
+        font-size: 13px;
+        vertical-align: top;
+    }
+
+    th {
+        background-color: #eee;
+        text-align: center;
+    }
+
+    td {
+        text-align: center;
+    }
+
+    /* Colonne description */
+    td:last-child {
+        text-align: left;
+        width: 35%;
+    }
+
+    /* Première colonne (titres) */
+    td:first-child {
+        font-weight: bold;
+        width: 15%;
+    }
 h1,h2,h3 {
      color: green;
 }
@@ -36,64 +60,63 @@ L’électricité est une énergie spécifique, dont la forme est invisible, mai
 <li>son énergie</li>
 <p>Ces caractéristiques, que l'on appelle des unités de grandeurs électriques, sont utilisées pour mesurer et comparer les propriétés électriques des circuits et produits qui touchent à l'électricité.</p>
 <h3> GRANDEURS ÉLECTRIQUE À CONNAÎTRE<h3> 
+
 <table>
-    <tr>
-        <th></th>
-        <th>Symbole</th>
-        <th>Unité</th>
-        <th>Symbole unité</th>
-        <th>Description</th>
-    </tr>
 
-    <tr>
-        <td><b>Tension</b></td>
-        <td>U</td>
-        <td>Volt</td>
-        <td>V</td>
-        <td>
-            La tension électrique est une force de pression qui provoque le déplacement des électrons dans un circuit électrique.
-            Lorsqu'elle traverse un récepteur, elle lui fournit de l'énergie électrique.
-            <br><br>
-            On la retrouve aux bornes d’une lampe.
-        </td>
-    </tr>
+<tr>
+    <th></th>
+    <th>Symbole</th>
+    <th>Unité</th>
+    <th>Symbole unité</th>
+    <th>Description</th>
+</tr>
 
-    <tr>
-        <td><b>Intensité / courant</b></td>
-        <td>I</td>
-        <td>Ampère</td>
-        <td>A</td>
-        <td>
-            L’intensité électrique est la mesure de la quantité d’électrons traversant une section donnée en une unité de temps.
-            Ce courant circule à travers des récepteurs, telle qu’une lampe.
-        </td>
-    </tr>
+<tr>
+    <td>Tension</td>
+    <td>U</td>
+    <td>Volt</td>
+    <td>V</td>
+    <td>
+        La tension électrique est une force qui provoque le déplacement des électrons dans un circuit.  
+        Elle fournit de l’énergie aux appareils.  
+        <br><br>
+        Exemple : aux bornes d’une lampe.
+    </td>
+</tr>
 
-    <tr>
-        <td><b>Puissance</b></td>
-        <td>P</td>
-        <td>Watt</td>
-        <td>W</td>
-        <td>
-            La puissance représente la capacité de l’élément électrique à produire une force, une luminosité.
-            La puissance d’une charge influence la qualité de son effet.
-            Par exemple, une lampe de forte puissance émettra plus de lumière.
-        </td>
-    </tr>
+<tr>
+    <td>Intensité / courant</td>
+    <td>I</td>
+    <td>Ampère</td>
+    <td>A</td>
+    <td>
+        L’intensité mesure la quantité d’électrons qui passent dans un circuit par unité de temps.  
+        Elle circule dans les récepteurs comme une lampe.
+    </td>
+</tr>
 
-    <tr>
-        <td><b>Énergie</b></td>
-        <td>E</td>
-        <td>Watthoure</td>
-        <td>Wh</td>
-        <td>
-            L’énergie est le produit de la puissance et du temps.
-            <br><br>
-            Par exemple, une batterie de 10 Wh est capable d’alimenter une lampe de 10 W pendant une heure
-            ou une lampe de 5W pendant 2 heures.
-        </td>
-    </tr>
+<tr>
+    <td>Puissance</td>
+    <td>P</td>
+    <td>Watt</td>
+    <td>W</td>
+    <td>
+        La puissance représente la capacité d’un appareil à produire de l’énergie (lumière, chaleur...).  
+        Plus elle est grande, plus l’effet est important.
+    </td>
+</tr>
 
+<tr>
+    <td>Énergie</td>
+    <td>E</td>
+    <td>Watthoure</td>
+    <td>Wh</td>
+    <td>
+        L’énergie = puissance × temps.  
+        <br><br>
+        Exemple : une batterie de 10 Wh alimente une lampe de 10 W pendant 1 heure.
+    </td>
+</tr>
 </table>
 
 </body>
